@@ -1,10 +1,10 @@
 <?php
 $questions = [
-    'question1' => ["<h2>Come state implementando la recente decisione della Corte di giustizia dell'Unione europea(CGUE) relativa al diritto all'oblio?</h2>"],
-    'question2' => ["<h2>Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h2>"],
-    'question3' => ["<h2>Perché il mio account è associato a un paese?</h2>"],
-    'question4' => ["<h2>Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h2>"],
-    'question5' => ["<h2>Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?</h2>"],
+    'question1' => "<h2>Come state implementando la recente decisione della Corte di giustizia dell'Unione europea(CGUE) relativa al diritto all'oblio?</h2>",
+    'question2' => "<h2>Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h2>",
+    'question3' => "<h2>Perché il mio account è associato a un paese?</h2>",
+    'question4' => "<h2>Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h2>",
+    'question5' => "<h2>Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?</h2>",
 ];
 
 $answers = [
@@ -52,10 +52,9 @@ $answers = [
 
 foreach($questions as $question) {
     var_dump($question);
-};
-
-foreach($answers as $answer) {
-    var_dump($answer);
+    foreach($answers as $answer) {
+        var_dump($answer);
+    };
 };
 
 ?>
